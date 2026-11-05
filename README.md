@@ -5,7 +5,7 @@ This service is a small self-hosted relay for the ADS-B point lookup used by Dop
 ## Run with Docker
 
 ```bash
-docker compose up --build
+docker compose up
 ```
 
 The API is then available at `http://localhost:8000`.

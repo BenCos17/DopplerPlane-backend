@@ -1,6 +1,6 @@
 services:
   dopplerplane-api:
-    build: .
+    image: ghcr.io/bencos17/dopplerplane-backend:latest
     ports:
       - "8000:8000"
     environment:
