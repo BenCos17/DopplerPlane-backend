@@ -4,7 +4,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      ADSB_UPSTREAM_BASE_URL: ${ADSB_UPSTREAM_BASE_URL:-https://api.adsb.lol}
+      ADSB_UPSTREAM_BASE_URL: ${ADSB_UPSTREAM_BASE_URL:-https://api.airplanes.live}
       CACHE_TTL_SECONDS: ${CACHE_TTL_SECONDS:-120}
       MIN_REQUEST_INTERVAL_SECONDS: ${MIN_REQUEST_INTERVAL_SECONDS:-1}
     restart: unless-stopped

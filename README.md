@@ -15,7 +15,7 @@ GET /v2/point/{lat}/{lon}/{radius}
 GET /healthz
 ```
 
-`radius` is in nautical miles and is limited to 250 by default. The default upstream is `https://api.adsb.lol`; set `ADSB_UPSTREAM_BASE_URL` to another compatible ADS-B provider if needed. `CACHE_TTL_SECONDS` defaults to 120 seconds, so upstream data is refreshed at most once every 2 minutes per exact lookup key. `MIN_REQUEST_INTERVAL_SECONDS` defaults to 1 second per exact lookup key.
+`radius` is in nautical miles and is limited to 250 by default. The default upstream is `https://api.airplanes.live`; set `ADSB_UPSTREAM_BASE_URL` to another compatible ADS-B provider if needed. `CACHE_TTL_SECONDS` defaults to 120 seconds, so upstream data is refreshed at most once every 2 minutes per exact lookup key. `MIN_REQUEST_INTERVAL_SECONDS` defaults to 1 second per exact lookup key.
 
 ## Run locally
 

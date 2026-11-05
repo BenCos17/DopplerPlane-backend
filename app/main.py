@@ -13,7 +13,7 @@ from fastapi.responses import JSONResponse
 
 @dataclass(frozen=True)
 class Settings:
-    upstream_base_url: str = "https://api.adsb.lol"
+    upstream_base_url: str = "https://api.airplanes.live"
     cache_ttl_seconds: float = 120.0
     min_request_interval_seconds: float = 1.0
     upstream_timeout_seconds: float = 8.0
